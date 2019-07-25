@@ -12,7 +12,7 @@ page 50100 "ad_Calendar Part"
                 ApplicationArea = All;
                 trigger OnControlAddInReady()
                 begin
-                    InitializeWebViewer();
+                    //InitializeWebViewer();
                 end;
             }
         }

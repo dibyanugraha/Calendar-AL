@@ -1,10 +1,10 @@
   import FullCalendar from '/scripts/core/main.js';
   
   document.addEventListener('DOMContentLoaded', function() {
-    var calendarEl = document.getElementById('calendar');
+    var calendarEl = document.getElementById('controlAddIn');
 
     var calendar = new FullCalendar.Calendar(calendarEl, {
-      plugins: [ 'dayGrid' ]
+      plugins: [ 'dayGrid', 'timeGrid', 'list' ]
     });
 
     calendar.render();
