@@ -1,5 +1,3 @@
-  import FullCalendar from '/scripts/core/main.js';
-  
   document.addEventListener('DOMContentLoaded', function() {
     var calendarEl = document.getElementById('controlAddIn');
 
