@@ -1,0 +1,23 @@
+{
+  "id": "02f3f52f-5e21-461c-b064-01283d5d13bc",
+  "name": "Web Page Viewer AL",
+  "publisher": "Ariestya Dibyanugraha",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "14.0.0.0",
+  "application": "14.0.0.0",
+  "idRange": {
+    "from": 50100,
+    "to": 50149
+  },
+  "runtime": "3.0"
+}
