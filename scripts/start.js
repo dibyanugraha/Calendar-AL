@@ -1,10 +1,9 @@
-  document.addEventListener('DOMContentLoaded', function() {
-    var calendarEl = document.getElementById('controlAddIn');
+var calendarEl = document.getElementById('controlAddIn');
 
-    var calendar = new FullCalendar.Calendar(calendarEl, {
-      plugins: [ 'dayGrid', 'timeGrid', 'list' ]
-    });
+var calendar = new FullCalendar.Calendar(calendarEl, {
+  plugins: [ 'dayGrid' ]
+});
 
-    calendar.render();
-  });
+calendar.render();
+
 Microsoft.Dynamics.NAV.InvokeExtensibilityMethod('OnControlAddInReady');

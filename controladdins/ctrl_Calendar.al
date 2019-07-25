@@ -2,15 +2,11 @@ controladdin "ad_CalendarCtrl"
 {
     Scripts =
         'scripts/core/main.min.js',
-        'scripts/daygrid/main.min.js',
-        'scripts/timegrid/main.min.js',
-        'scripts/list/main.min.js';
+        'scripts/daygrid/main.min.js';
 
     StartupScript = 'scripts/start.js';
     StyleSheets = 'scripts/core/main.min.css',
-        'scripts/daygrid/main.min.css',
-        'scripts/timegrid/main.min.css',
-        'scripts/list/main.min.css';
+        'scripts/daygrid/main.min.css';
     //Images =
 
     RequestedHeight = 320;
@@ -23,5 +19,5 @@ controladdin "ad_CalendarCtrl"
     HorizontalStretch = true;
 
     event OnControlAddInReady();
-    procedure Render();
+    //procedure Render();
 }

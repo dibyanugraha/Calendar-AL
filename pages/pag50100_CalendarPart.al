@@ -20,6 +20,6 @@ page 50100 "ad_Calendar Part"
 
     local procedure InitializeWebViewer()
     begin
-        CurrPage.Calendar.Render();
+        //CurrPage.Calendar.Render();
     end;
 }
